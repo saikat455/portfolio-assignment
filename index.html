@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Lobster&family=Playpen+Sans:wght@800&display=swap');
+      </style>
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="navbar bg-blue-300 rounded-box p-4"> 
+                <div class="navbar-start ">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a class="text-xl" href="index.html">Home</a></li>
+                            <li>
+                            <a href="mentor.html" class="text-xl">Mentorship</a>
+                            </li>
+                            <li><a class="text-xl">Blog</a></li>
+                        </ul>
+                    </div>
+                        <a class="btn btn-ghost normal-case text-4xl font-alegreya font-lobster font-playpen-sans font-extrabold">Portfolio</a>
+
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-2xl font-bold" href="index.html">Home</a></li>
+                        <li><a href="mentor.html"  class="text-2xl font-bold">Mentorship</a></li>
+                        <li><a class="text-2xl font-bold">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a href="index.html">
+                        <button class="btn btn-outline">
+                            <div class="flex items-center gap-2">
+                                <a href="hello.html">
+                                    <span class="">Say Hello</span>
+                                </a>
+                                <img src="hi.png" class="h-6 w-6" alt="">
+                            </div>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </nav> 
+
+        
+        
+    </header> 
+
+    <section>
+
+        <div class="hero min-h-screen rounded-box" style="background-image: url(portfolio-banner.jpg);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="w-3/4">
+                <h1 class="mb-5 text-5xl font-bold">Designer, Frontend Developer & Mentor</h1>
+                <p class="mb-5 text-xl">I design and code beautifully simple things, and I love what I do.</p>
+                <button class="btn btn-primary">Get Started</button>
+              </div>
+            </div>
+          </div>
+          
+    </section>
+    
+
+    <section>
+        <img src="myPhoto.jpg" class="mx-auto mt-20 rounded-full" alt="">
+        <p class="mt-16 text-center text-3xl font-bold text-amber-700">Hi, I’m Saikat. Nice to meet you.</p>
+        <p class="mt-5 text-center w-2/3 mx-auto text-amber-950">Since beginning my journey as a freelance designer over 2 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</p>
+    </section>
+
+    <section class="mt-16 flex justify-center px-6 w-3/4 mx-auto ">
+        <div class="mx-auto text-center border-2 border-gray-300">
+            <img src="designLogo.png" class="w-24 mx-auto mt-2" alt="">
+            <p class="text-2xl font-bold mt-5 text-lime-600">Designer</p>
+            <p class="mt-5 text-green-500">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+            <p class="text-red-500 mt-3 text-xl font-semibold">Things I enjoy designing:</p>
+            <p class="mt-3 text-lg text-yellow-950">UX, UI, Web, Apps, Logos</p>
+            <p class="text-red-500 mt-3 text-xl font-semibold">Design Tools:</p>
+            
+            <div class="text-lg text-yellow-950 mt-3">
+                <p class="">Affinity Designer</p>
+                <p>Figma</p>
+                <p>Font Awesome</p>
+                <p>Pen & Paper</p>
+                <p>Sketch</p>
+                <p>Webflow</p>
+            </div>
+        </div>
+        <div class="text-center mx-auto border-t-2 border-b-2 border-gray-300">
+            <img src="designLogo.png" class="w-24 mx-auto mt-2" alt="">
+            <p class="text-2xl font-bold mt-5 text-lime-600">Frontend Developer</p>
+            <p class="mt-5 text-green-500">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+            <p class="text-red-500 mt-3 text-xl font-semibold">Languages I speak:</p>
+            <p class="mt-3 text-lg text-yellow-950">HTML, Pug, Slim, CSS, Sass, Git</p>
+            <p class="text-red-500 mt-3 text-xl font-semibold">Dev Tools:</p>
+            
+            <div class="text-lg mt-3 text-yellow-950">
+                <p class="">Atom
+                </p>
+                <p>Bitbucket</p>
+                <p>Bootstrap</p>
+                <p>Bulma</p>
+                <p>Codekit</p>
+                <p>Github</p>
+            </div>
+        </div>
+        <div class="text-center mx-auto border-2 border-gray-300">
+            <img src="mentorLogo.png" class="w-24 mx-auto mt-2" alt="">
+            <p class="text-2xl font-bold mt-5 text-lime-600">Mentor</p>
+            <p class="mt-5 text-green-500">I genuinely care about people, and love helping fellow designers work on their craft.</p>
+            <p class="text-red-500 mt-3 text-xl font-semibold">Experiences I draw from:</p>
+            <p class="mt-3 text-lg text-yellow-950">UX/UI, Product design, Freelancing</p>
+            <p class="text-red-500 mt-3 text-xl font-semibold">Mentor Stats:</p>
+            
+            <div class="text-lg text-yellow-950 mt-3">
+                <p class="">2 years experience</p>
+                <p>6 short courses</p>
+                <p>35 bootcamps</p>
+                <p>20+ students</p>
+                <p>350+ mentor sessions</p>
+                <p>20+ group critiques</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-screen-xl px-8 py-5 mx-auto my-10 md:px-16 lg:px-24">
+        <p class="mt-10 text-3xl text-center font-bold text-red-500">My Recent Work</p>
+        <p class="text-center mt-3 text-neutral-700">Here are a few past design projects I've worked on. Want to see more? <a href=""><span class="text-cyan-400 font-bold">Email me</span></a>.</p>
+        <br><br>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="card h-60 bg-base-100 shadow-sm image-full">
+            <figure><img src="card1.jpeg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title font-bold text-3xl">E-commerce Redesign!</h2>
+              <p>Responsive Web Design for an E-commerce Platform</p>
+              <button class="border-2 rounded-full p-1 flex justify-center">
+                <div class="flex items-center gap-2">
+                    <span class="">View Website </span>
+                    <img src="view.png" class="h-6 w-6" alt="">
+                </div>
+            </button>
+            </div>
+          </div>
+        <div class="card h-60 bg-base-100 shadow-xl image-full">
+            <figure><img src="card2.jpeg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title font-bold text-3xl">Coffee Shop Identity!</h2>
+              <p>Brand Identity Redesign for a Local Coffee Shop</p>
+              <button class="border-2 rounded-full p-1 flex justify-center">
+                <div class="flex items-center gap-2">
+                    <span class="">View Website </span>
+                    <img src="view.png" class="h-6 w-6" alt="">
+                </div>
+            </button>
+            </div>
+          </div>
+        <div class="card h-60 bg-base-100 shadow-xl image-full">
+            <figure><img src="card3.jpeg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title font-bold text-3xl">Health & Fitness App UI!</h2>
+              <p>Mobile App User Interface (UI) Design for Health and Fitness</p>
+              <button class="border-2 rounded-full p-1 flex justify-center">
+                <div class="flex items-center gap-2">
+                    <span class="">View Website </span>
+                    <img src="view.png" class="h-6 w-6" alt="">
+                </div>
+            </button>
+            </div>
+          </div>
+        <div class="card h-60 bg-base-100 shadow-xl image-full">
+            <figure><img src="card4.jpeg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title font-bold text-3xl">Travel UX Enhancement!</h2>
+              <p>User Experience (UX) Enhancement for a Travel Booking Website</p>
+              <button class="border-2 rounded-full p-1 flex justify-center">
+                <div class="flex items-center gap-2">
+                    <span class="">View Website </span>
+                    <img src="view.png" class="h-6 w-6" alt="">
+                </div>
+            </button>
+            </div>
+          </div>
+        <div class="card h-60 bg-base-100 shadow-xl image-full">
+            <figure><img src="card5.jpeg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title font-bold text-3xl">Interactive Dashboard!</h2>
+              <p>Developing an Interactive Dashboard for Data Analytics</p>
+              <button class="border-2 rounded-full p-1 flex justify-center">
+                <div class="flex items-center gap-2">
+                    <span class="">View Website </span>
+                    <img src="view.png" class="h-6 w-6" alt="">
+                </div>
+            </button>
+            </div>
+          </div>
+        <div class="card h-60 bg-base-100 shadow-xl image-full">
+            <figure><img src="card6.jpeg" alt="Shoes" /></figure>
+            <div class="card-body ">
+              <h2 class="card-title font-bold text-3xl">Payment Gateway Integration!</h2>
+              <p>Integrating Payment Gateway for Online Payment Processing</p>
+              <button class="border-2 rounded-full p-1 flex justify-center">
+                <div class="flex items-center gap-2">
+                    <span class="">View Website </span>
+                    <img src="view.png" class="h-6 w-6" alt="">
+                </div>
+            </button>
+            </div>
+          </div>
+          
+        </div>
+    </section>
+
+    <!-- //relative -->
+
+    <section class="bg-blue-400">
+        <section class="mt-7  bg-blue-400">
+            <div class="mt-7 p-8 text-white h-96 relative">
+                <p class="text-center text-3xl font-bold mt-10">My Startup Projects</p>
+                <p class="text-center mt-5 w-1/2 mx-auto">I'm a bit of a digital product junky. Over the years, I've used hundreds of web and mobile apps in different industries and verticals. Eventually, I decided that it would be a fun challenge to try designing and building my own.</p>
+            </div>
+        
+            <div class="bg-slate-950 absolute bottom-[-2585px] left-1/2 transform -translate-x-1/2 h-60 text-white hidden lg:block">
+                
+                <div class="max-w-screen-xl px-8 mx-auto my-10 md:px-16 lg:px-24">
+                    <p class="text-center text-2xl font-bold mt-5">Interested in collaborating with me?</p>
+                    <p class="text-xl mt-5 text-center">I’m always open to discussing product design work or partnership opportunities.</p>
+                    <div class="mt-7 justify-center flex">
+                        <button class="btn btn-outline btn-info w-60">
+                            <div class="flex items-center">
+                                <img src="msg.png" class="h-6 w-6" alt="">
+                                <span class="ml-2">Start conversation</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+    
+
+    <footer class="bg-slate-400 p-8 mt-40">
+        <p class="text-center text-2xl w-96 mx-auto">Living, learning, & leveling up one day at a time</p>
+        <div class="social-icons flex gap-4 justify-center mt-5">
+            <a href="#" class="social-icon hover:bg-white p-1 rounded-full">
+                <img src="facebook_5968764.png" alt="Facebook" class="icon-image w-10 h-10">
+            </a>
+            <a href="#" class="social-icon hover:bg-white p-1 rounded-full">
+                <img src="twitter_3670211.png" alt="Twitter" class="icon-image w-10 h-10">
+            </a>
+            <a href="#" class="social-icon hover:bg-white p-1 rounded-full">
+                <img src="instagram_4138124.png" alt="Instagram" class="icon-image w-10 h-10">
+            </a>
+            <a href="#" class="social-icon hover:bg-white p-1 rounded-full">
+                <img src="linkedin_145807.png" alt="Email" class="icon-image w-10 h-10">
+            </a>
+            <a href="#" class="social-icon hover:bg-white p-1 rounded-full">
+                <img src="mail_10505856.png" alt="Email" class="icon-image w-10 h-10">
+            </a>
+        </div>
+    </footer>
+    
+</body>
+</html>

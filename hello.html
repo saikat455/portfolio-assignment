@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contact</title>
+</head>
+<body>
+    
+
+    <nav class="">
+        <div class="navbar bg-blue-300 rounded-box p-4"> 
+            <div class="navbar-start ">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a class="text-xl" href="index.html">Home</a></li>
+                            <li>
+                            <a href="mentor.html" class="text-xl">Mentorship</a>
+                            </li>
+                        <li><a class="text-xl">Blog</a></li>
+                    </ul>
+                </div>
+                    <a class="btn btn-ghost normal-case text-4xl font-alegreya font-lobster font-playpen-sans font-extrabold">Portfolio</a>
+
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a class="text-2xl font-bold" href="index.html">Home</a></li>
+                        <li><a href="mentor.html"  class="text-2xl font-bold">Mentorship</a></li>
+                    <li><a class="text-2xl font-bold">Blog</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a href="index.html">
+                    <button class="btn btn-outline">
+                        <div class="flex items-center gap-2">
+                            <span class="">go home</span>
+                            <img src="hi.png" class="h-6 w-6" alt="">
+                        </div>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </nav> 
+    
+
+    <section class="flex items-center justify-center  relative mt-16 ">
+        <div class="w-full border-t border-gray-300 absolute top-0 left-0 transform -translate-y-1/2"></div>
+        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+            <img src="myPhoto.jpg" alt="Centered Image" class="w-24 h-24 rounded-full">
+        </div>
+    </section>
+
+    <div class="hero mt-20">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <div class="text-center lg:text-left">
+            <h1 class="text-3xl font-bold mb-5 text-center">How can i help you today?</h1>
+            
+          <div class="card flex-shrink-0  shadow-2xl bg-base-100">
+            <form onsubmit="showSuccessAlert()" class="card-body">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Email</span>
+                </label>
+                <input type="email" placeholder="email" class="input input-bordered" required />
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Name</span>
+                </label>
+                <input type="text" placeholder="name" class="input input-bordered" required />
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Message</span>
+                </label>
+                <textarea name="message" id="message" cols="30" rows="10" class="input input-bordered" required></textarea>
+              </div>
+              <div class="form-control mt-6">
+                <button class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <script>
+        function showSuccessAlert() {
+            alert('Form submitted successfully!');
+        }
+    </script>
+</body>
+</html>
